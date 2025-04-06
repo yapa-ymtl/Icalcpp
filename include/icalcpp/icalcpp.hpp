@@ -1,0 +1,5 @@
+#ifndef __ICALCPP_ICALCPP_HPP__
+#define __ICALCPP_ICALCPP_HPP__
+
+
+#endif // !__ICALCPP_ICALCPP_HPP__
