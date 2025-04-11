@@ -10,7 +10,7 @@ It is built with clean code principles and zero third-party dependencies.
 
 ## ✅ Compatibility
 
-Although developed using **C++23**, this library is designed to work with **any C++11 or newer** standard-compliant compiler.
+Although some features developed using **C++23**, this library is designed to work with **any C++17 or newer** standard-compliant compiler.
 
 - Header-only — just include and use  
 - No third-party dependencies  
@@ -61,4 +61,4 @@ Please open an issue or pull request to help shape the library.
 
 Stay tuned for the first release!
 
-> — *Crafted with modern C++ power. Backward compatible with C++11.*
+> — *Crafted with modern C++ power. Backward compatible with C++17.*
