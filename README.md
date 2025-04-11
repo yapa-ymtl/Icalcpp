@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/ChatGPT Image Apr 11, 2025, 08_06_24 AM.png" alt="Icalcpp logo" width="400"/>
+</p>
+
+---
 # 📅 Icalcpp
 
 **Icalcpp** is a lightweight, modern, header-only C++ library for parsing `.ics` (iCalendar) files.  
@@ -38,13 +43,7 @@ Although some features developed using **C++23**, this library is designed to wo
 
 ---
 
-## 📷 Preview
 
-<p align="center">
-  <img src="path-to-your-image.png" alt="Icalcpp logo" width="400"/>
-</p>
-
----
 
 ## 📁 License
 
