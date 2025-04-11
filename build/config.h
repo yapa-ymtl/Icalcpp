@@ -1,0 +1,6 @@
+#pragma once
+
+#define ICALCPP_VERSION_MAJOR 
+#define ICALCPP_VERSION_MINOR 
+#define ICALCPP_VERSION_PATCH 
+
