@@ -1,8 +1,8 @@
 #include "../include/icalcpp/icalcpp.h"
 
-int main (int argc, char *argv[]) {
-    Icalcpp::Event ev1("meeting 1", "1", "3");
-    ev1.pirntEvent();
+int main () {
+
+    Icalcpp::VCalender newObj = Icalcpp::VCalender("prod_id");
 
     return 0;
 }

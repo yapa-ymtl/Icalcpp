@@ -2,6 +2,7 @@
 
   icalcpp.h
   Master include for the Icalcpp library
+  Umbrella header for the project.
 
   Copyright (c) 2025 yapa-ymtl
 
@@ -16,6 +17,6 @@
 #ifndef  ICALCPP_ICALCPP_H
 #define  ICALCPP_ICALCPP_H
 
-#include "event.h"
+#include "vcalender/vcalender.h"
 
 #endif // ICALCPP_ICALCPP_H
