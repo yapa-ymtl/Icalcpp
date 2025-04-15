@@ -29,10 +29,13 @@ class VCalender {
 public:
     VCalender() = delete;
 
-    [[nodiscard]] explicit VCalender(const std::string& prodID_);
-                            // : _prodID(prodID_)  {}
+    [[nodiscard]]
+    explicit VCalender(const std::string& prodID_)
+                            : _prodID(prodID_)  {}
 
-    [[nodiscard]] explicit VCalender(const std::string& prodID_, const std::string& version_);
+    [[nodiscard]]
+    explicit VCalender(const std::string& prodID_, const std::string& version_)
+                            : _prodID(prodID_), _version(version_) {}
 
     // Required properties
     std::string version() const noexcept;
@@ -49,8 +52,8 @@ public:
     
 private:
     struct ProductID;
-    std::string _version{"2.0"};  // Default version
     std::string _prodID;
+    std::string _version{"2.0"};  // Default version
     // Other components will be added
 };
 

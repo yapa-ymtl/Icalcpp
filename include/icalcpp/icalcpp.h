@@ -18,5 +18,9 @@
 #define  ICALCPP_ICALCPP_H
 
 #include "vcalender/vcalender.h"
+#include "vevent/vevent.h"
+#include "vtodo/vtodo.h"
+#include "vtimezone/vtimezone.h"
+
 
 #endif // ICALCPP_ICALCPP_H
