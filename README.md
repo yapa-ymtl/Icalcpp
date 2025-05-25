@@ -56,6 +56,7 @@ This project will be released under the **MIT License**.
 Contributions, feedback, and ideas are welcome!  
 Please open an issue or pull request to help shape the library.
 
+Thank you!!!
 ---
 
 Stay tuned for the first release!
