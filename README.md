@@ -60,7 +60,7 @@ Contributions, feedback, and ideas are welcome!
 Thank you!!!
 ---
 
-Stay tuned for the first release!
+Stay tuned for the first release!!!
 
 > — *Crafted with modern C++ power. Backward compatible with C++17.*
 
