@@ -53,11 +53,14 @@ This project will be released under the **MIT License**.
 
 ## 🙌 Contributions
 
+You can Contribut to the library once a stable intial version released.
 Contributions, feedback, and ideas are welcome!  
-Please open an issue or pull request to help shape the library.
+<!-- Please open an issue or pull request to help shape the library. -->
 
+Thank you!!!
 ---
 
 Stay tuned for the first release!
 
 > — *Crafted with modern C++ power. Backward compatible with C++17.*
+

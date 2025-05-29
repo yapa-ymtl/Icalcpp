@@ -31,6 +31,14 @@
 *.out
 *.app
 
-.cache/*
-.vscode/*
-build/*
+
+# IDE specific files
+.vscode/
+.cache/
+
+# Build directories
+build/
+cmake-build-*/
+
+# OS specific files
+.DS_Store
