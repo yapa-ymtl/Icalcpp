@@ -17,6 +17,7 @@
 #define ICALCPP_VCALENDER_DATE_H
 
 #include <string>
+#include <string_view>
 
 namespace Icalcpp {
 class Date {
@@ -24,11 +25,10 @@ public:
     Date() = delete;
     
     /**
-     * @brief create new Date object.
-     * @param Represents July 14, 1997 is 19970714
+     * @brief Create new Date object.
+     * @param Represents July 14, 1997 as 19970714
      */
-    [[nodiscard]]
-    Date(const std::string& date_){
+    Date(const std::string_view date_){
         _date.reserve(STANDARD_DATE_LENGTH);
         _date = date_;
     }
