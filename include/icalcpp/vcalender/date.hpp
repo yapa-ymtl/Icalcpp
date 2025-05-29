@@ -1,8 +1,7 @@
 /******************************************************************************
 
-  icalcpp.h
-  Master include for the Icalcpp library
-  Umbrella header for the project.
+  date.hpp
+  Header for date  class
 
   Copyright (c) 2025 yapa-ymtl
 
@@ -13,16 +12,17 @@
       https://opensource.org/licenses/MIT
 
 ******************************************************************************/
-
-#ifndef  ICALCPP_ICALCPP_H
-#define  ICALCPP_ICALCPP_H
-
-// #include "vcalender/vcalender.h"
-#include "vcalender/vcalender.hpp"
-// #include "vevent/vevent.h"
-// #include "vtodo/vtodo.h"
-// #include "vtimezone/vtimezone.h"
-// #include "vcalender/date.h"
-
-
-#endif // ICALCPP_ICALCPP_H
+// #ifndef ICALCPP_VCALENDER_DATE_HPP
+// #define ICALCPP_VCALENDER_DATE_HPP
+// #include "./date.h"
+//
+// namespace Icalcpp {
+//
+// inline
+// Date::Date(const std::string& date_)
+// {
+//     _date.reserve(STANDARD_DATE_LENGTH);
+//     _date = date_;
+// }
+// }
+// #endif

@@ -16,12 +16,17 @@
 #ifndef ICALCPP_VCALENDER_VCALENDER_H
 #define ICALCPP_VCALENDER_VCALENDER_H
 
+#include <memory>
 #include <string>
+#include <ostream>
 #include <optional>
+#include <ostream>
+#include <unordered_set>
 
 #include "../vevent/vevent.h"
 #include "../vtodo/vtodo.h"
 #include "../vtimezone/vtimezone.h"
+#include "../utility/utility.h"
 
 namespace Icalcpp {
 
@@ -49,11 +54,16 @@ public:
     // Calendar properties
     std::optional<std::string> calscale() const noexcept;
     std::optional<std::string> method() const noexcept;
+
+    friend std::ostream& operator<<(std::ostream& os_, const VCalender& vcal_);
     
 private:
     struct ProductID;
     std::string _prodID;
     std::string _version{"2.0"};  // Default version
+
+    std::unordered_set<std::unique_ptr<VEvent>> _events;
+    std::unordered_set<std::unique_ptr<VTodo>> _todos;
     // Other components will be added
 };
 
