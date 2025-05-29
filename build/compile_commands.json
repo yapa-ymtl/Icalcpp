@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/yapa/Projects/openSourceCont/Icalcpp/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/yapa/Projects/openSourceCont/Icalcpp/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/simple_example.dir/examples/simple.cpp.o -c /Users/yapa/Projects/openSourceCont/Icalcpp/examples/simple.cpp",
-  "file": "/Users/yapa/Projects/openSourceCont/Icalcpp/examples/simple.cpp",
-  "output": "CMakeFiles/simple_example.dir/examples/simple.cpp.o"
-}
-]
